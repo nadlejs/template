@@ -63,6 +63,12 @@ importers:
         specifier: ^8.35.0
         version: 8.35.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
 
+  packages/my-package:
+    devDependencies:
+      typescript:
+        specifier: ^5.8.2
+        version: 5.8.3
+
 packages:
 
   '@cspell/cspell-bundled-dicts@9.1.2':
