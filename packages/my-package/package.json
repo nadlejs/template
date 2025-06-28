@@ -1,0 +1,15 @@
+{
+	"name": "my-package",
+	"private": true,
+	"scripts": {
+		"build": "tsc --project tsconfig.build.json",
+		"start": "tsc --project tsconfig.build.json --watch"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"typescript": "^5.8.2"
+	},
+	"engines": {
+		"node": ">=20"
+	}
+}
