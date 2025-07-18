@@ -5,15 +5,7 @@ const config: ConfigArray = tsEslint.config(
 	...nadle.configs.recommended,
 	nadle.configs.react,
 	{
-		ignores: [
-			"**/lib",
-			"**/build",
-			"**/.nadle",
-			"**/__temp__",
-			"**/node_modules/",
-			"**/.docusaurus",
-			"packages/nadle/test/__fixtures__/mixed-ts-js/nadle.config.js"
-		]
+		ignores: ["**/lib", "**/build", "**/.nadle", "**/node_modules/"]
 	},
 	{
 		languageOptions: {
